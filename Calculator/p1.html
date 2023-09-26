@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home{
+            text-align: center;
+        }
+        .container{
+            /* background: red; */
+            margin: auto;
+            height: 400px;
+            width: 250px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .button{
+            margin: auto;
+            height: 70px;
+            width: 59px;
+            padding: 22px;
+            border: 2px solid black;
+            border-radius: 9px;
+            cursor: pointer;
+        } 
+        .row{
+            margin: 10px 0;
+        }
+        .input{
+            margin: 0px;
+            padding: 0px;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+           letter-spacing: 5px;
+           height: 30px;
+           border: 2px solid black;
+           border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="home">Calculater </h1>
+    <div class="container">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+            <button class="button">C</button>
+            <button class="button">%</button>
+            <button class="button">M+</button>
+            <button class="button">M-</button>
+        </div>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+         </div>
+         
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">/</button>
+        </div>
+        <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+        </div>
+        <div class="row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">-</button>
+        </div>
+        
+    </div>
+    <script src="p1.js"></script>
+</body>
+</html>
+
